@@ -1,3 +1,4 @@
+#6351ce
 body{
     
     font-family: 'Poppins', sans-serif;
@@ -19,8 +20,17 @@ body{
     font-size: 35px;
     font-weight: bolder;
     margin-right: 30px;
-    color: #ffc033;
+    color:#c3c3c3;
+    /* color: #ffc033; */
+    display: flex;
+    justify-content: center;
+
     
+}
+
+#logo img{
+    height: 84px;
+    width: 212px;
 }
 .toddle{
     cursor: pointer;
@@ -34,7 +44,8 @@ body{
 .line{
     width: 27px;
     height: 3px;
-    background-color: #ffc033;
+    background-color:#c3c3c3;
+    /* background-color: #ffc033; */
     margin: 3px;
 
 }
@@ -88,23 +99,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: normal;
     
     
 
 
 }
-.container-1-left h1{
+.container-1-left span{
     
     font-weight: 500;
     font-size: 80px;
     color: #ffc033;
     margin-bottom: 25px;
+    text-align: center;
+    /* background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
     
 }
 
 .container-1-left span:before{
     content: '';
-    animation: animate infinite 8s;
+    animation: animate infinite 3s;
     animation-delay: 1s;
     animation-timing-function: ease-in-out;
 
@@ -165,6 +181,7 @@ body{
     border: 2px solid #4c4c4c;
     border-left: 0px;
     border-right: 0px;
+    
     background-color: #222222;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -200,9 +217,24 @@ body{
 
 
 
+#ffc033
+
+.footer-text-1{
+    color: #c3c3c3;
+}
+
+
+
+
+
 
 @media only screen and (max-width:800px) {
     
+
+#logo{
+    font-size: 32px;
+    font-weight: 500;
+}    
 .container-1{
     /* display: grid;
     grid-template-columns: 1fr 10fr 10fr 1fr; */
@@ -246,6 +278,12 @@ body{
     display: none;
 
 }
+
+/* .container-1-left h1{
+    font-size: 70px;
+} */
+
+
 
 }
 

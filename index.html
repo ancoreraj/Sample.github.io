@@ -10,6 +10,8 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -19,6 +21,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="Style/home.css">
     <link rel="stylesheet" href="Style/login.css">
+    <link rel="stylesheet" href="Style/icons.css">
 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
@@ -54,7 +57,8 @@
                 </div>
 
                 <div id="logo">
-                    NITA Literary Club
+                  NITA Literary Club
+                    <!-- <img class="img-fluid" src="images/logo.png" alt="NITA Literary Club"> -->
                 </div>
 
             </nav>
@@ -64,7 +68,7 @@
 
                     </div>
                     <div id="con1-2" class="container-1-left">
-                       <h1><span></span></h1> 
+                       <span></span> 
 
                     </div>
                     <div id="con1-3" class="container-1-right">
@@ -353,7 +357,7 @@
             <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-    <div style="background-color: #6351ce;">
+    <div style="background-color:#ffc033;">
       <div class="container">
   
         <!-- Grid row-->
@@ -368,27 +372,13 @@
           <!-- Grid column -->
           <div class="col-md-6 col-lg-7 text-center text-md-right">
   
-            <!-- Facebook -->
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f white-text mr-4"> </i>
-            </a>
-            <!-- Twitter -->
-            <a class="tw-ic">
-              <i class="fab fa-twitter white-text mr-4"> </i>
-            </a>
-            <!-- Google +-->
-            <a class="gplus-ic">
-              <i class="fab fa-google-plus-g white-text mr-4"> </i>
-            </a>
-            <!--Linkedin -->
-            <a class="li-ic">
-              <i class="fab fa-linkedin-in white-text mr-4"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic">
-              <i class="fab fa-instagram white-text"> </i>
-            </a>
-  
+            <ul class="social-network social-circle">
+              <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
           </div>
           <!-- Grid column -->
   
@@ -399,7 +389,7 @@
     </div>
   
     <!-- Footer Links -->
-    <div class="container text-center text-md-left mt-5">
+    <div style="background-color: #333333;" class="container text-center text-md-left pt-5">
   
       <!-- Grid row -->
       <div class="row mt-3">
@@ -408,9 +398,9 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
   
           <!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">Company name</h6>
+          <h6 style="color:  white;" class="text-uppercase font-weight-bold">NITA Literary Club</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          <p style="color:#c3c3c3;">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
             consectetur
             adipisicing elit.</p>
   
@@ -418,9 +408,9 @@
         <!-- Grid column -->
   
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
   
-          <!-- Links -->
+          
           <h6 class="text-uppercase font-weight-bold">Products</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
@@ -436,26 +426,26 @@
             <a href="#!">Bootstrap Angular</a>
           </p>
   
-        </div>
+        </div> -->
         <!-- Grid column -->
   
         <!-- Grid column -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
   
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <h6 style="color:  white;" class="text-uppercase font-weight-bold">Useful links</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a href="#!">Your Account</a>
+            <a style="color:#c3c3c3;" href="#!">Your Account</a>
           </p>
           <p>
-            <a href="#!">Become an Affiliate</a>
+            <a style="color:#c3c3c3;" href="#!">Our Team</a>
           </p>
           <p>
-            <a href="#!">Shipping Rates</a>
+            <a style="color:#c3c3c3;" href="#!">Our Collage</a>
           </p>
           <p>
-            <a href="#!">Help</a>
+            <a style="color:#c3c3c3;" href="#!">Help</a>
           </p>
   
         </div>
@@ -465,16 +455,16 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
   
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <h6 style="color: white;" class="text-uppercase font-weight-bold">Contact</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-          <p>
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-          <p>
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          <p style="color:#c3c3c3;">
+            <i class="fas fa-home mr-3"></i> SAC Building,</p>
+          <p style="color:#c3c3c3;">
+            <i class="fas fa-envelope mr-3"></i> NIT Agartala </p>
+          <p style="color:#c3c3c3;">
+            <i class="fas fa-phone mr-3"></i> + 95 07191293</p>
+          <p style="color:#c3c3c3;">
+            <i class="fas fa-print mr-3"></i> + 95 07191293</p>
   
         </div>
         <!-- Grid column -->
@@ -486,8 +476,8 @@
     <!-- Footer Links -->
   
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <div style="background-color: #222222; color: white;" class="footer-copyright text-center py-3">© 2020 Copyright:
+      
     </div>
     <!-- Copyright -->
   
