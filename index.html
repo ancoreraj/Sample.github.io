@@ -9,87 +9,496 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #1f1c1c;
-            font-family: 'Poppins', sans-serif;
-        }
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        .charles {
-            color: #b3b3b3;
-            font-size: 18px;
-        }
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
 
-        .charles-1 {
-            color: white;
-            font-size: 40px;
-        }
-    </style>
+    <!-- custom css -->
+    <link rel="stylesheet" href="Style/home.css">
+    <link rel="stylesheet" href="Style/login.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
 </head>
 
 <body>
 
+    <div class="d-flex" id="wrapper">
 
-    <section class="text-gray-700 body-font charles">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-                <div class="sm:w-1/2 mb-10 px-4">
-                    <div class="rounded-lg h-64 overflow-hidden" data-aos="zoom-in-up">
-                        <img alt="content" class="object-cover object-center h-full w-full"
-                            src="Charles-Dickens-007.jpg">
-                    </div>
-                    <h2 data-aos="zoom-in" data-aos-offset="150" data-aos-duration="800" data-aos-easing="ease-in-sine" class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 charles-1">Charles Dickens</h2>
-                </div>
-                <div data-aos="zoom-in">
-                    <p class="charles">
-                        Charles John Huffam Dickens FRSA was an English writer and social critic. He created some of the
-                        world's best-known fictional characters and is regarded by many as the greatest novelist of the
-                        Victorian era.[1] His works enjoyed unprecedented popularity during his lifetime, and by the
-                        20th century, critics and scholars had recognised him as a literary genius. His novels and short
-                        stories are still widely read today.[2][3]
-
-                        Born in Portsmouth, Dickens left school to work in a factory when his father was incarcerated in
-                        a debtors' prison. Despite his lack of formal education, he edited a weekly journal for 20
-                        years, wrote 15 novels, five novellas, hundreds of short stories and non-fiction articles,
-                        lectured and performed readings extensively, was an indefatigable letter writer, and campaigned
-                        vigorously for children's rights, education, and other social reforms.
-                    </p>
-
-                </div>
+        <!-- Sidebar -->
+        <div class="bg-light border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading">NITA Literary Club</div>
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
             </div>
         </div>
-    </section>
-    <section class="text-gray-700 body-font charles">
-        <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-                <div class="sm:w-1/2 mb-10 px-4">
-                    <div class="rounded-lg h-64 overflow-hidden" data-aos="zoom-in-up">
-                        <img alt="content" class="object-cover object-center h-full w-full"
-                            src="Charles-Dickens-007.jpg">
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar">
+
+                <div class="toddle" id="menu-toggle">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <div id="logo">
+                    NITA Literary Club
+                </div>
+
+            </nav>
+            <div class="body">
+                <div class="container-1">
+                    <div id="con1-1" class="">
+
                     </div>
-                    <h2 data-aos="zoom-in" data-aos-duration="800" data-aos-offset="150" data-aos-easing="ease-in-sine" class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 charles-1">Charles Dickens</h2>
-                </div>
-                <div data-aos="zoom-in">
-                    <p class="charles">
-                        Charles John Huffam Dickens FRSA was an English writer and social critic. He created some of the
-                        world's best-known fictional characters and is regarded by many as the greatest novelist of the
-                        Victorian era.[1] His works enjoyed unprecedented popularity during his lifetime, and by the
-                        20th century, critics and scholars had recognised him as a literary genius. His novels and short
-                        stories are still widely read today.[2][3]
+                    <div id="con1-2" class="container-1-left">
+                       <h1><span></span></h1> 
 
-                        Born in Portsmouth, Dickens left school to work in a factory when his father was incarcerated in
-                        a debtors' prison. Despite his lack of formal education, he edited a weekly journal for 20
-                        years, wrote 15 novels, five novellas, hundreds of short stories and non-fiction articles,
-                        lectured and performed readings extensively, was an indefatigable letter writer, and campaigned
-                        vigorously for children's rights, education, and other social reforms.
-                    </p>
+                    </div>
+                    <div id="con1-3" class="container-1-right">
+                        <form class="form-signin">
+                            <!-- <img class="mb-4" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+                                <p>SignUp to get Weekely updates and amazing content form our club.
+                                </p>
+                            
+                            <label for="inputEmail" class="sr-only">Email address</label>
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus autocomplete="off">
+                            <label for="inputPassword" class="sr-only">Password</label>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required autocomplete="off">
+                            <!-- <div class="checkbox mb-3">
+                              <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                              </label>
+                            </div> -->
+                            <button class="btn btn-lg btn-block" type="submit">Log in</button>
+                            <button class="btn btn-lg btn-block">Sign up</button>
+                            
+                        </form>
+                    </div>
+
+                    <div id="con1-4">
+
+                    </div>
 
                 </div>
+                
+
+
+                <!-- Sections -->
+                <div class="container-2-top">
+                    Poetry
+                </div>
+                <div class="container-2">
+                    <div class="carousel" data-flickity='{ "groupCells": true }'>
+                        
+                        
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                      </div>
+                    
+
+                </div>
+
+
+
+
+
+
+                
+                <div class="container-2-top">
+                    Story
+                </div>
+                <div class="container-2">
+                    <div class="carousel" data-flickity='{ "groupCells": true }'>
+                        <div class="carousel-cell">
+                            
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class="container-2-top">
+                    Weekely Digest
+                </div>
+                <div class="container-2">
+                    <div class="carousel" data-flickity='{ "groupCells": true }'>
+                        <div class="carousel-cell">
+                            
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card cardss" style="width: 18rem;">
+                                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+
+                </div>
+
+
+
+
+
+
+
+
+
             </div>
+
+            <!-- footer -->
+            <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+    <div style="background-color: #6351ce;">
+      <div class="container">
+  
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+  
+          </div>
+          <!-- Grid column -->
+  
         </div>
-    </section>
-   
+        <!-- Grid row-->
+  
+      </div>
+    </div>
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+  
+      <!-- Grid row -->
+      <div class="row mt-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Company name</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">MDBootstrap</a>
+          </p>
+          <p>
+            <a href="#!">MDWordPress</a>
+          </p>
+          <p>
+            <a href="#!">BrandFlow</a>
+          </p>
+          <p>
+            <a href="#!">Bootstrap Angular</a>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Your Account</a>
+          </p>
+          <p>
+            <a href="#!">Become an Affiliate</a>
+          </p>
+          <p>
+            <a href="#!">Shipping Rates</a>
+          </p>
+          <p>
+            <a href="#!">Help</a>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
 
 
 
@@ -97,6 +506,41 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
