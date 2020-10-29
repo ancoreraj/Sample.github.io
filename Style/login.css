@@ -26,15 +26,18 @@
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: #222222;
+  background-color: #000000;
+  /* background-color: #222222; */
   border: 1.5px solid #4c4c4c;
   
 }
 .form-signin input::placeholder{
-    color: #c3c3c3;
+    color:White;
+    /* color: #c3c3c3; */
 }
 .form-signin input[type="password"] {
-    background-color: #222222;
+    background-color: #000000;
+    /* background-color: #222222; */
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -50,6 +53,7 @@ textarea:focus, input:focus {
 }
 
 .form-signin button{
+    
     background-color:  #333333;
     border: 1px solid  #333333;
     color: #ffc033;
