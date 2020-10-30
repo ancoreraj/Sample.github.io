@@ -209,10 +209,6 @@ body{
     padding: 70px 0px;
 }
 
-.container-2-element{
-    
-}
-
 .container-2-top{
     padding: 10px 10px;
     font-size: 28px;
@@ -279,7 +275,7 @@ body{
     height: 230px;
 }
 .container-1-left span{
-    font-size: 70;
+    font-size: 65px;
     margin-top: 22px;
 }
 
