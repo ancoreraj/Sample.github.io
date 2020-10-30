@@ -320,6 +320,15 @@ section:nth-child(even) p{
     text-align: center;
 }
 
+section:nth-child(odd) {
+    
+    height: 80vh;
+}
+
+section:nth-child(even) {
+    
+    height: 80vh;
+}
 .container-1-left{
     height: 180px;
 }
@@ -341,9 +350,6 @@ section:nth-child(even) p{
     display: none;
 }
 
-section{
-    height: 60vh;
-}
 
 .container-2-top{
     font-size: 40px;
