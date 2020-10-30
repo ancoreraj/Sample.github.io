@@ -230,7 +230,7 @@ section:nth-child(odd) {
 }
 
 section:nth-child(even) {
-    background:#000000;
+    background:#222222;
     height: 90vh;
 }
 section:nth-child(even) .container-2-top{
@@ -265,10 +265,10 @@ section:nth-child(odd) .cardss{
 section:nth-child(even) .cardss{
     
     border-radius: 12px;
-    background-color:#0f0f0f;
+    background-color:#333333;
     /* box-shadow: 0px 0px 14px #000000; */
     /* border: 1.5px solid #fff; */
-    border: 1.5px solid #333333;
+    border: 1.5px solid #000000;
 }
 
 
@@ -309,7 +309,7 @@ section:nth-child(even) p{
     
 
 #logo{
-    font-size: 27px;
+    font-size: 29px;
     font-weight: 600;
 }    
 .container-1{
@@ -339,6 +339,14 @@ section:nth-child(even) p{
 }
 #con1-4{
     display: none;
+}
+
+section{
+    height: 60vh;
+}
+
+.container-2-top{
+    font-size: 40px;
 }
 
 /* .cardss{
