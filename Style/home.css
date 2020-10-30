@@ -327,7 +327,7 @@ section:nth-child(odd) {
 
 section:nth-child(even) {
     
-    height: 80vh;
+    height: 70vh;
 }
 .container-1-left{
     height: 180px;
