@@ -322,7 +322,7 @@ section:nth-child(even) p{
 
 section:nth-child(odd) {
     
-    height: 80vh;
+    height: 70vh;
 }
 
 section:nth-child(even) {
