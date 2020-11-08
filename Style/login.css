@@ -1,3 +1,16 @@
+.form-div{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10rem;
+}
+.form-div h1{
+  color: #000000;
+  text-align: center;
+  font-weight: 600;
+}
+
 
 
 .form-signin {
@@ -6,9 +19,9 @@
   padding: 15px;
   margin: auto;
 }
-.form-signin h1{
+/* .form-signin h1{
     color: #c3c3c3;
-}
+} */
 .form-signin .checkbox {
   font-weight: 400;
 }
