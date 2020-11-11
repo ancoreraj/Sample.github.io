@@ -65,5 +65,11 @@ hr{
         font-size: 45px;
       
     }
+    .video{
+    
+        margin: 0px 10px 10px 10px;
+        padding: 2px 2px;
+    
+    }
 
 }
