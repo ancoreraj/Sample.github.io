@@ -13,6 +13,7 @@ ul.social-network li {
     border: 1.5px solid #fff;
     
 }
+
 .social-network a.icoRss:hover {
     background-color: #F56505;
 }
@@ -23,6 +24,15 @@ ul.social-network li {
 }
 .social-network a.icoFacebook:hover {
     background-color:#3B5998;
+}
+.social-network a.icoInstagram{
+    background-color:#DD2A7B ;
+    /* background-color:#E1306C; */
+    border: 1.5px solid #fff;
+    
+}
+.social-network a.icoInstagram:hover {
+    background-color:#DD2A7B ;
 }
 
 .social-network a.icoTwitter{

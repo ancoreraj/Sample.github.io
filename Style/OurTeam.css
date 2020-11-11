@@ -1,0 +1,23 @@
+.our-team-body{
+    background-color:#eee;
+    margin-top:20px;
+
+}
+
+.border-5, .border-w-5 {
+    border-width: 5px !important;
+}
+.border-white {
+    border: 1px solid transparent;
+    border-color: #fff !important;
+}
+hr.hr-primary {
+    border-top-color: #fbc91b!important;
+    /* border-top-color: #CC164D!important; */
+}
+em {
+    font-style: italic;
+}
+.font-weight-normal {
+    font-weight: 400 !important;
+}
