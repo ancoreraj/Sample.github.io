@@ -1,16 +1,25 @@
 .category-body{
-    background-color:#ebebeb;
+    background-color:#ffffff;
     /* background-color: #f8f9fa; */
-    padding: 20px;
+    padding: 5px;
+    padding-top: 0px;
 }
 
 .category-body h1{
+    padding: 0px 46px;
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0px;
+  
+}
+/* .category-body h1{
     color: black;
     text-align: center;
     margin: 0px;
     font-size: 45px;
     font-weight: 700;
-}
+} */
 
 .category-section{
     display: grid;
@@ -58,6 +67,10 @@
 
 
 @media only screen and (max-width:800px){
+    .category-body h1{
+        text-align: center;
+        
+    }
     .category-section{
         grid-template-columns: 1fr;
     }

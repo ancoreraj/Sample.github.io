@@ -10,10 +10,13 @@
 }
 
 .video-body-1 h1{
-    text-align: center;
-    padding: 30px 0px;
-    font-weight: 600;
-    font-size: 45px;
+    /* text-align: center; */
+    /* padding: 30px 0px; */
+    padding: 8px 21px;
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0px;
   
 }
 
@@ -38,9 +41,8 @@
 
 }
 
-hr{
-    margin: 10px;
-}
+
+
 
 .video-intro{
     font-size: 25px;
@@ -59,11 +61,12 @@ hr{
         font-weight: 500;
     }
     .video-body-1 h1{
-        text-align: center;
-        padding: 15px 0px;
-        padding-top: 18px;
-        font-weight: 600;
-        font-size: 45px;
+        /* text-align: center; */
+        padding: 8px 21px;
+        padding-top: 16px;
+        font-weight: 700;
+        font-size: 32px;
+       margin: 0px;
       
     }
     .video{

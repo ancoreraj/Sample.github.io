@@ -2,6 +2,15 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.yellow-line{
+    width: 95%;
+    height: 1px;
+    background-color: #ffc033;
+    margin: auto;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
 .navbar{
     
     background-color: #fff;
